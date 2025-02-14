@@ -11,12 +11,12 @@
 <body>
   <div id="root">
     <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
-        <header class="py-10 mx-5">   
-          <nav class="flex justify-between items-center">
+        <header class="p-6 mx-auto">   
+          <nav class="flex justify-between items-center relative">
             <div class="logo basis-2/6 text-center texl-xl font-semibold cursor-pointer">
               CoffeStyle.
             </div>  
-            <ul id="ct-top-menu" class="basis-3/6 hidden ct-topmenu-expanded lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
+            <ul id="ct-top-menu" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
               <li class="ct-top-menu-item">
                 <a href="#" class="">Home</a>
               </li>
@@ -35,12 +35,12 @@
               <li class="ct-top-menu-item">
                 <a href="#" class="">StyleGuide</a>
               </li>
-              <li class="ct-top-menu-item">
+              <li class="ct-top-menu-item ct-top-menu-item-active">
                 <a href="https://github.com/luwukien" class="">ChiKienLuu</a>
               </li>
-            </ul>
+            </ul>  
 
-            <ul class="basis-3/6 lg:flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-grey-500 font-medium ">
+            <ul class="basis-3/6 lg:basis-1/6 lg:flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-grey-500 font-medium ">
               <li class="ct-top-menu-item">   
                 <a href="#" class="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -52,7 +52,7 @@
               </li>
             </ul> 
 
-            <div class="basis-1/6 lg:hidden flex items-center cursor-pointer px-2 sm:px-4 ">
+            <div class="basis-1/6 lg:hidden flex items-center cursor-pointer px-3 sm:px-8 ">
               <svg id="ct-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
